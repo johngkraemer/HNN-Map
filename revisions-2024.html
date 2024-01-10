@@ -394,53 +394,57 @@ Webflow.push(function () {
 			city = 'ElkGrove'; //Elk Grove
 			break;
 			case 63: 
+			city = 'ElCajon'; //El Cajon
+			break;			
+            case 64: 
 			city = 'Tempe'; //Tempe
 			break;
-			case 64: 
-			city = 'ElCajon'; //El Cajon
-			break;
-            case 65: 
-			city = 'GrandRapids2'; //Grand Rapids 2
+			case 65: 
+			city = 'ElCajon2'; //El Cajon 2
 			break;
             case 66: 
-			city = 'Billings'; //Billings
+			city = 'GrandRapids2'; //Grand Rapids 2
 			break;
             case 67: 
-			city = 'Manchester'; //Manchester
+			city = 'Billings'; //Billings
 			break;
             case 68: 
-			city = 'Summit2'; //Summit2
+			city = 'Manchester'; //Manchester
 			break;
             case 69: 
-			city = 'Albuquerque'; //Albuquerque
+			city = 'Summit2'; //Summit2
 			break;
             case 70: 
-			city = 'Utica'; //Utica
+			city = 'Albuquerque'; //Albuquerque
 			break;
             case 71: 
-			city = 'Columbus2'; //Columbus2
+			city = 'Utica'; //Utica
 			break;
             case 72: 
-			city = 'Columbus3'; //Columbus3
+			city = 'Columbus2'; //Columbus2
 			break;
             case 73: 
-			city = 'Oxford'; //Oxford
+			city = 'Columbus3'; //Columbus3
 			break;
             case 74: 
-            city = 'Memphis' //Memphis
+			city = 'Oxford'; //Oxford
 			break;
             case 75: 
+            city = 'Memphis' //Memphis
+			break;
+            case 76: 
 			city = 'Austin2'; //Austin 2
 			break;
-            case 76:
+            case 77:
             city = 'Austin3'; //Austin 3
             break;
-            case 77:
+            case 78:
             ciy = 'Irving' //Irving
             break;
-            case 78:
+            case 79:
             city = 'Arlington' //Arlington
             break;
+            default:
 			city = 'Pittsburgh'; //Pittsburgh
 			break;
 		}
@@ -1316,12 +1320,8 @@ Webflow.push(function () {
 		<path id="Arlington" class="st9" d="M1617.8,640.8l-2.6-2.6c-9.6-8.3-15.7-14.1-15.7-21.1c0-5.8,4.5-9.9,9.9-9.9
 			c3.2,0,6.1,1.6,8.3,3.8c1.9-2.2,5.1-3.8,8.3-3.8c5.8,0,9.9,4.5,9.9,9.9c0,7-6.1,12.5-15.7,21.1L1617.8,640.8z"/>
 	</g>
-	<g id="Irving2G" onclick="select('Irving2',13)">
-		<path id="Irving2" class="st9" d="M1006.7,1052.6l-2.6-2.6c-9.5-8.4-15.7-14.1-15.7-21c0-5.7,4.4-10,10-10
-			c3.1,0,6.2,1.5,8.2,3.8c2-2.4,5.1-3.8,8.2-3.8c5.7,0,10,4.4,10,10c0,6.9-6.2,12.6-15.7,21L1006.7,1052.6z"/>
-	</g>
-	<g id="IrvingG" onclick="select('Irving1',13)">
-		<path id="Irving1" class="st9" d="M1016.7,1072.6l-2.6-2.6c-9.5-8.4-15.7-14.1-15.7-21c0-5.7,4.4-10,10-10
+	<g id="IrvingG" onclick="select('Irving',13)">
+		<path id="Irving" class="st9" d="M1016.7,1072.6l-2.6-2.6c-9.5-8.4-15.7-14.1-15.7-21c0-5.7,4.4-10,10-10
 			c3.1,0,6.2,1.5,8.2,3.8c2-2.4,5.1-3.8,8.2-3.8c5.7,0,10,4.4,10,10c0,6.9-6.2,12.6-15.7,21L1016.7,1072.6z"/>
 	</g>
 	<g id="Austin3G" onclick="select('Austin3',9)">
@@ -1377,7 +1377,7 @@ Webflow.push(function () {
 		<path id="ElCajon2" class="st9" d="M615.2,865.8l-2.6-2.6c-9.6-8.3-15.7-14.1-15.7-21.1c0-5.8,4.5-9.9,9.9-9.9
 			c3.2,0,6.1,1.6,8.3,3.8c1.9-2.2,5.1-3.8,8.3-3.8c5.8,0,9.9,4.5,9.9,9.9c0,7-6.1,12.5-15.7,21.1L615.2,865.8z"/>
 	</g>
-	<g id="Tempe2_G" onclick="select('Tempe2',33)">
+	<g id="Tempe2G" onclick="select('Tempe2',33)">
 		<path id="Tempe2" class="st9" d="M463.7,1028.5l-2.6-2.6c-9.6-8.3-15.7-14.1-15.7-21.1c0-5.8,4.5-9.9,9.9-9.9
 			c3.2,0,6.1,1.6,8.3,3.8c1.9-2.2,5.1-3.8,8.3-3.8c5.8,0,9.9,4.5,9.9,9.9c0,7-6.1,12.5-15.7,21.1L463.7,1028.5z"/>
 	</g>
@@ -1402,8 +1402,8 @@ Webflow.push(function () {
 		<path id="Concord" class="st9" d="M484.1,666.9l-2.6-2.6c-9.6-8.3-15.7-14.1-15.7-21.1c0-5.8,4.5-9.9,9.9-9.9
 			c3.2,0,6.1,1.6,8.3,3.8c1.9-2.2,5.1-3.8,8.3-3.8c5.8,0,9.9,4.5,9.9,9.9c0,7-6.1,12.5-15.7,21.1L484.1,666.9z"/>
 	</g>
-	<g id="GreenBayG" onclick="select('GreenBayP',42)" transform="translate(-5.9422169,-45.589517)">
-		<path id="GreenBayP" class="st9" d="M1331.2,512.8l-2.6-2.6c-9.6-8.3-15.7-14.1-15.7-21.1c0-5.8,4.5-9.9,9.9-9.9
+	<g id="GreenBayG" onclick="select('GreenBay',42)" transform="translate(-5.9422169,-45.589517)">
+		<path id="GreenBay" class="st9" d="M1331.2,512.8l-2.6-2.6c-9.6-8.3-15.7-14.1-15.7-21.1c0-5.8,4.5-9.9,9.9-9.9
 			c3.2,0,6.1,1.6,8.3,3.8c1.9-2.2,5.1-3.8,8.3-3.8c5.8,0,9.9,4.5,9.9,9.9c0,7-6.1,12.5-15.7,21.1L1331.2,512.8z"/>
 	</g>
 	<g id="AdieG" onclick="select('Adie',42)" transform="translate(124.3307,14.861088)">
